@@ -1,2 +1,6 @@
-# CVPR_2017_notes
-CVPR 2017 notes
+# CVPR_2017_notes (on-going)
+
+## Papers by topics
+
+## Workshops
+
