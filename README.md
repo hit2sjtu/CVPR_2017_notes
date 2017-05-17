@@ -3,7 +3,7 @@
 ## Papers by topics
 
 ### Local Features
-*Comparative Evaluation of Hand-Crafted and Learned Local Features[link]{https://cvg.ethz.ch/research/local-feature-evaluation/}
+*Comparative Evaluation of Hand-Crafted and Learned Local Features[link](https://cvg.ethz.ch/research/local-feature-evaluation/)
 
 ## Workshops
 
