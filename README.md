@@ -5,8 +5,9 @@ This is my personal notes and focuses on several aspects:
 3. Object detection and recognition  
 4. Object tracking   
 5. Face processing  
-6. Computation photography  
-7. Real-time application of computer vision
+6. Computation photography 
+7. SLAM 
+8. Real-time application of computer vision
 
 ## Papers by topics
 ### Local Features
@@ -24,6 +25,10 @@ This is my personal notes and focuses on several aspects:
 ### RGBD Sensors
 * Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
 [Paper](https://arxiv.org/abs/1705.05548)
+
+### SLAM
+* CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction  
+
 
 ### Object Detection
 * LCDet: Low-Complexity Fully-Convolutional Neural Networks for Object Detection in Embedded Systems.  **Qualcomm & UCSD**  
