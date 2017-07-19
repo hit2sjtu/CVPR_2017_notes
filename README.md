@@ -2,14 +2,25 @@
 
 This is my personal notes and **focuses on** several aspects as listed below.  
 
-1. Feature detection and matching  
-2. Geometry computer vision (and deep learning)   
-3. Object detection and recognition  
-4. Object tracking   
-5. Face analysis  
-6. Computation photography  
-7. SLAM  
-8. Real-time application of computer vision
+## Table of Contents
+1. [3D vision and Deep Learning](#3D vision and Deep Learning)
+2. [Optical Flow](#Optical Flow)
+3. [2D/3D feature detection and matching](#Features2d)
+4. [SLAM](#slam)
+5. [6 DOF Object detection & tracking](#r6d)
+6. [Object Detection](#object detection)
+7. [Transfer Learning & Domain Adaptation](#transfer learning)
+8. [Computational Photography](#cp)
+9. [3D Reconstruction](#3D Reconstruction)
+10. [RGBD Sensors / Stereo](#rgbd)
+11. [DL model compression](#DL model compression)
+12. [Sensor Calibration](#calib)
+13. [Image Retrieval](#Image Retrieval)
+14. [Human Analysis](#human)
+15. [Face Analysis](#face)
+16. [Object Tracking](#track)
+17. [Machine Learning](#ml)
+18. [Multiple View Geometry](#mvg)
 
 Topics **not included** here but I am also interested with:  
   
@@ -27,7 +38,7 @@ Topics **not included** here but I am also interested with:
 * **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
 
 ## Papers by topics
-### 3D vision and Deep Learning
+### 3D vision and Deep Learning<a name="3D vision and Deep Learning"></a>
 * **Convolutional Neural Network Architecture for Geometric Matching**. **INRIA**.
 Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic  
 [Paper](https://arxiv.org/abs/1703.05593)
@@ -52,7 +63,7 @@ Bastian Leibe
 * DSAC - Differentiable RANSAC for Camera Localization, Eric Brachmann, Alexander Krull, Sebastian 
 Nowozin, Jamie Shotton, Frank Michel, Stefan Gumhold, Carsten Rother
 
-### Optical Flow
+### Optical Flow<a name="Optical Flow"></a>
 * FlowNet 2.0: Evolution of Optical Flow Estimation With Deep Networks
 Eddy Ilg, Nikolaus Mayer, Tonmoy Saikia, Margret Keuper, Alexey Dosovitskiy, Thomas Brox [Paper](https://arxiv.org/pdf/1612.01925.pdf) [Code](https://github.com/lmb-freiburg/flownet2)  
 
@@ -72,7 +83,7 @@ Chang
 * Filter Flow Made Practical: Massively Parallel and Lock-Free, Sathya N. Ravi, Yunyang Xiong, Lopamudra 
 Mukherjee, Vikas Singh 
 
-### 2D/3D feature detection and matching
+### 2D/3D feature detection and matching<a name="Features2d"></a>
 * Comparative Evaluation of Hand-Crafted and Learned Local Features. Johannes L. Schönberger,Hans Hardmeier, Torsten Sattler, **Marc Pollefeys**   
 [Paper](https://cvg.ethz.ch/research/local-feature-evaluation/schoenberger2017comparative.pdf) [Website](https://cvg.ethz.ch/research/local-feature-evaluation/)
 
@@ -96,7 +107,7 @@ Feng, Jie Zhou
 * Learning Discriminative and Transformation Covariant Local Feature Detectors, Xu Zhang, Felix X. Yu, Svebor 
 Karaman, Shih-Fu Chang
  
-### SLAM
+### SLAM<a name="slam"></a>
 * CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
 
 * NID-SLAM: Robust Monocular SLAM Using Normalised Information Distance.
@@ -111,7 +122,7 @@ Jingming Dong, Xiaohan Fei, **Stefano Soatto**
 * On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**
    Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr 
 
-### 6 DOF Object detection & tracking
+### 6 DOF Object detection & tracking<a name="r6d"></a>
 * PoseAgent: Budget-Constrained 6D Object Pose Estimation via Reinforcement Learning
 **Alexander Krull**, Eric Brachmann, Sebastian Nowozin, Frank 
 
@@ -126,7 +137,7 @@ Jacob Chan, Jimmy Addison Lee, Qian Kemao
 * Real-Time 3D Model Tracking in Color and Depth on a Single CPU Core, Wadim Kehl, Federico Tombari, Slobodan 
 Ilic, Nassir Navab 
 
-### Object Detection
+### Object Detection<a name="object detection"></a>
 * LCDet: Low-Complexity Fully-Convolutional Neural Networks for Object Detection in Embedded Systems.  **Qualcomm & UCSD**  
 [Paper](https://arxiv.org/abs/1705.05922)
 
@@ -167,7 +178,7 @@ Van Gool
 * RON: Reverse Connection With Objectness Prior Networks for Object Detection, Tao Kong, Fuchun Sun, 
 Anbang Yao, Huaping Liu, Ming Lu, Yurong Chen 
 
-### Transfer Learning & Domain Adaptation
+### Transfer Learning & Domain Adaptation<a name="transfer learning"></a>
 * Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning. Weifeng Ge, Yizhou Yu . [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf)
 
 * Fine-Grained Recognition of Thousands of Object Categories With Single-Example Training, Leonid 
@@ -197,7 +208,7 @@ Kim, Yuri Owechko, Stefano Soatto
 * Joint Geometrical and Statistical Alignment for Visual Domain Adaptation, Jing Zhang, Wanqing Li, Philip 
 Ogunbona 
 
-### Computational Photography
+### Computational Photography<a name="cp"></a>
 * A Unified Approach of Multi-scale Deep and Hand-crafted Features for Defocus Estimation. **KAIST & Tecent Youtu**
 [Paper](https://arxiv.org/abs/1704.08992) [website]()
 
@@ -205,7 +216,7 @@ Ogunbona
 
 * Depth From Defocus in the Wild, Huixuan Tang, Scott Cohen, Brian Price, Stephen Schiller, Kiriakos N. Kutulakos 
 
-### 3D Reconstruction
+### 3D Reconstruction<a name="3D Reconstruction"></a>
 * Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image. Chen Kong, Chen-Hsuan Lin, **Simon Lucey**. Carnegie Mellon University           
 [Paper](ci2cv.net/media/papers/chenkong_cvpr_2017.pdf) [Github](https://github.com/kongchen1992/LDCgraph)
 
@@ -230,13 +241,13 @@ Yang Yang, Dong Huang
 * Self-Calibration-Based Approach to Critical Motion Sequences of Rolling-Shutter Structure From Motion, 
 Eisuke Ito, Takayuki Okatani 
 
-### RGBD Sensors / Stereo
+### RGBD Sensors / Stereo <a name="rgbd"></a>
 * Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
 [Paper](https://arxiv.org/abs/1705.05548)
 
 * Dynamic Time-Of-Flight. Michael Schober, Amit Adam, Omer Yair, Shai Mazor, Sebastian Nowozin
 
-### DL model compression
+### DL model compression <a name="DL model compression"></a>
 * On Compressing Deep Models by Low Rank and Sparse Decomposition, Xiyu Yu, Tongliang Liu, Xinchao Wang, Dacheng Tao
 
 * A Compact DNN: Approaching GoogLeNet-Level Accuracy of Classification and Domain Adaptation, Chunpeng Wu, Wei Wen, Tariq Afzal, Yongmei Zhang, Yiran Chen, Hai (Helen) Li
@@ -249,14 +260,14 @@ Eisuke Ito, Takayuki Okatani
 
 * Network Sketching: Exploiting Binary Structure in Deep CNNs, Yiwen Guo, Anbang Yao, Hao Zhao, Yurong Chen 
   
-### Sensor Calibration
+### Sensor Calibration <a name="calib"></a>
 *  A Practical Method for Fully **Automatic Intrinsic Camera Calibration** Using Directionally Encoded Light, 
 Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhöfer
 
 *  Radiometric Calibration for Internet Photo Collections, Zhipeng Mo, Boxin Shi, Sai-Kit Yeung, Yasuyuki 
 Matsushita 
 
-### Image Retrieval
+### Image Retrieval <a name="Image Retrieval"></a>
 * Deep Visual-Semantic Quantization for Efficient Image Retrieval, Yue Cao, Mingsheng Long, Jianmin Wang, 
 Shichen Liu
  
@@ -276,10 +287,9 @@ Xianglong Liu, Ling Shao
 * Simultaneous Feature Aggregating and Hashing for Large-Scale Image Search, Thanh-Toan Do, Dang-Khoa Le Tan, 
 Trung T. Pham, Ngai-Man Cheung  
 
-* Discretely Coding Semantic Rank Orders for Supervised Image Hashing, Li Liu, Ling Shao, Fumin Shen, Mengyang 
-Yu 
+* Discretely Coding Semantic Rank Orders for Supervised Image Hashing, Li Liu, Ling Shao, Fumin Shen, Mengyang Yu 
 
-### Human Analysis 
+### Human Analysis <a name="human"></a>
 * LCR-Net: Localization-Classification-Regression for Human Pose. Gregory Rogez, Philippe Weinzaepfel, Cordelia Schmid 
 
 * Deep Learning on Lie Groups for Skeleton-Based Action Recognition, Zhiwu Huang, Chengde Wan, Thomas 
@@ -324,7 +334,7 @@ Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler
 * Deep Multitask Architecture for Integrated 2D and 3D Human Sensing, Alin-Ionut Popa, Mihai Zanfir, Cristian 
 Sminchisescu  
 
-### Face Analysis 
+### Face Analysis <a name="face"></a>
 * Learning Residual Images for Face Attribute Manipulation, Wei Shen, Rujie Liu
 
 * Disentangled Representation Learning GAN for Pose-Invariant Face Recognition, Luan Tran, Xi Yin, 
@@ -345,7 +355,7 @@ Weihong Deng, JunPing Du
  
 * Neural Aggregation Network for Video Face Recognition, Jiaolong Yang, Peiran Ren, Dongqing Zhang, Dong Chen, Fang Wen, Hongdong Li, Gang Hua 
 
-### Object Tracking
+### Object Tracking<a name="track"></a>
 * Context-Aware Correlation Filter Tracking, Matthias Mueller, Neil Smith, Bernard Ghanem
 
 * Template Matching With Deformable Diversity Similarity, Itamar Talmi, Roey Mechrez, Lihi Zelnik-Mano
@@ -360,7 +370,7 @@ Tobias Fischer, Yiannis Demiris, Jin Young Choi
 *  End-To-End Representation Learning for Correlation Filter Based Tracking, Jack Valmadre, Luca Bertinetto, 
 João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 
-### Machine Learning 
+### Machine Learning <a name="ml"></a>
 * Learning From Simulated and Unsupervised Images Through Adversarial Training, Ashish Shrivastava, Tomas 
 Pfister, Oncel Tuzel, Joshua Susskind, Wenda Wang, Russell 
 Webb 
@@ -381,7 +391,7 @@ Belongie
 * All You Need Is Beyond a Good Init: Exploring Better Solution for Training Extremely Deep Convolutional 
 Neural Networks With Orthonormality and Modulation, Di Xie, Jiang Xiong, Shiliang Pu
  
-### Multiple View Geometry
+### Multiple View Geometry<a name="mvg"></a>
 * A New Rank Constraint on Multi-View Fundamental Matrices, and Its Application to Camera Location 
 Recovery, Soumyadip Sengupta, Tal Amir, Meirav Galun, Tom Goldstein, David W. Jacobs, Amit Singer, Ronen Basri
 
