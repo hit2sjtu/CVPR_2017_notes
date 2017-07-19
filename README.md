@@ -13,13 +13,13 @@ This is my personal notes and **focuses on** several aspects as listed below.
 
 Topics **not included** here but I am also interested with:  
   
-1. Image/video captioning  
-2. Visual question answering  
+1. Image/video Captioning  
+2. Visual Question Answering  
 3. Vision & Sports
 4. Edge detection & semantic segmentation
 5. Video / temporal analysis
 6. Denoising/deblurring
-7. human action analysis
+7. Human action analysis
 8. Texture/style network
 
 **If you want to see all CVPR 2017 papers, please refer to the CVF open access of all CVPR 2017 papers:**   
@@ -27,7 +27,7 @@ Topics **not included** here but I am also interested with:
 * **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
 
 ## Papers by topics
-### 3D vision and Deep learning
+### 3D vision and Deep Learning
 * **Convolutional Neural Network Architecture for Geometric Matching**. **INRIA**.
 Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic  
 [Paper](https://arxiv.org/abs/1703.05593)
@@ -68,6 +68,10 @@ Kiran Varanasi, Didier Stricker
 Chang
 
 * S2F: Slow-To-Fast Interpolator Flow, Yanchao Yang, Stefano Soatto 
+
+* Filter Flow Made Practical: Massively Parallel and Lock-Free, Sathya N. Ravi, Yunyang Xiong, Lopamudra 
+Mukherjee, Vikas Singh 
+
 ### 2D/3D feature detection and matching
 * Comparative Evaluation of Hand-Crafted and Learned Local Features. Johannes L. Schönberger,Hans Hardmeier, Torsten Sattler, **Marc Pollefeys**   
 [Paper](https://cvg.ethz.ch/research/local-feature-evaluation/schoenberger2017comparative.pdf) [Website](https://cvg.ethz.ch/research/local-feature-evaluation/)
@@ -75,7 +79,7 @@ Chang
 * GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence. JiaWang Bian, Daniel Lin, Yasuyuki Matsushita, Sai-Kit Yeung, Tan Dat Nguyen, **Ming-Ming Cheng**
 [Website](http://mmcheng.net/gms/)  [Github](https://github.com/JiawangBian/GMS-Feature-Matcher) [Youtube](https://www.youtube.com/watch?v=tjMpgno6k5A)
 
-* HPatches: A benchmark and evaluation of handcrafted and learned local descriptors, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and **Krystian Mikolajczyk**. [Paper] (https://arxiv.org/pdf/1704.05939.pdf) [Github](https://github.com/hpatches/hpatches-benchmark)
+* HPatches: A benchmark and evaluation of handcrafted and learned local descriptors, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and **Krystian Mikolajczyk**. [Paper](https://arxiv.org/pdf/1704.05939.pdf) [Github](https://github.com/hpatches/hpatches-benchmark)
 
 * 3DMatch: Learning Local Geometric Descriptors From RGB-D Reconstructions. Andy Zeng, Shuran Song, Matthias Niessner, Matthew Fisher, Jianxiong Xiao, Thomas Funkhouser 
 
@@ -83,6 +87,15 @@ Chang
 David Novotny, Diane Larlus, Andrea Vedaldi 
 
 * Quad-Networks: Unsupervised Learning to Rank for Interest Point Detection, Nikolay Savinov, Akihito Seki, Lubor Ladicky, Torsten Sattler, Marc Pollefeys 
+
+* Learning Deep Binary Descriptor With Multi-Quantization, Yueqi Duan, Jiwen Lu, Ziwei Wang, Jianjiang 
+Feng, Jie Zhou 
+
+* Alternating Direction Graph Matching, D. Khuê Lê-Huu, Nikos Paragios
+
+* Learning Discriminative and Transformation Covariant Local Feature Detectors, Xu Zhang, Felix X. Yu, Svebor 
+Karaman, Shih-Fu Chang
+ 
 ### SLAM
 * CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
 
@@ -148,6 +161,12 @@ Wang, Xiang Bai, Wenyu Liu
 * Straight to Shapes: Real-Time Detection of Encoded Shapes, Saumya Jetley, Michael Sapienza, Stuart Golodetz, 
 Philip H. S. Torr 
 
+* Weakly Supervised Cascaded Convolutional Networks, Ali Diba, Vivek Sharma, Ali Pazandeh, Hamed Pirsiavash, Luc 
+Van Gool 
+
+* RON: Reverse Connection With Objectness Prior Networks for Object Detection, Tao Kong, Fuchun Sun, 
+Anbang Yao, Huaping Liu, Ming Lu, Yurong Chen 
+
 ### Transfer Learning & Domain Adaptation
 * Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning. Weifeng Ge, Yizhou Yu . [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf)
 
@@ -168,11 +187,23 @@ Gavves, Arnold W.M. Smeulders
 
 * Adversarial Discriminative Domain Adaptation, Eric Tzeng, Judy Hoffman, Kate Saenko, Trevor Darrell
   
+* Quality Aware Network for Set to Set Recognition, Yu Liu, Junjie Yan, Wanli Ouyang, **Sensetime** 
+
+* Correlational Gaussian Processes for Cross-Domain Visual Recognition, Chengjiang Long, Gang Hua 
+
+* Zero Shot Learning via Multi-Scale Manifold Regularization, Shay Deutsch, Soheil Kolouri, Kyungnam 
+Kim, Yuri Owechko, Stefano Soatto
+ 
+* Joint Geometrical and Statistical Alignment for Visual Domain Adaptation, Jing Zhang, Wanqing Li, Philip 
+Ogunbona 
+
 ### Computational Photography
 * A Unified Approach of Multi-scale Deep and Hand-crafted Features for Defocus Estimation. **KAIST & Tecent Youtu**
 [Paper](https://arxiv.org/abs/1704.08992) [website]()
 
 * Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network. Christian Ledig, Lucas Theis, Ferenc HuszÃƒÂ¡r, Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, Alykhan Tejani, Johannes Totz, Zehan Wang, Wenzhe Shi. [Paper](https://arxiv.org/pdf/1609.04802.pdf) [Code](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)  
+
+* Depth From Defocus in the Wild, Huixuan Tang, Scott Cohen, Brian Price, Stephen Schiller, Kiriakos N. Kutulakos 
 
 ### 3D Reconstruction
 * Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image. Chen Kong, Chen-Hsuan Lin, **Simon Lucey**. Carnegie Mellon University           
@@ -195,6 +226,9 @@ Su, Leonidas J. Guibas
 
 * Learning Category-Specific 3D Shape Models From Weakly Labeled 2D Images, Dingwen Zhang, Junwei Han, 
 Yang Yang, Dong Huang
+
+* Self-Calibration-Based Approach to Critical Motion Sequences of Rolling-Shutter Structure From Motion, 
+Eisuke Ito, Takayuki Okatani 
 
 ### RGBD Sensors / Stereo
 * Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
@@ -242,7 +276,10 @@ Xianglong Liu, Ling Shao
 * Simultaneous Feature Aggregating and Hashing for Large-Scale Image Search, Thanh-Toan Do, Dang-Khoa Le Tan, 
 Trung T. Pham, Ngai-Man Cheung  
 
-### Human Analysis
+* Discretely Coding Semantic Rank Orders for Supervised Image Hashing, Li Liu, Ling Shao, Fumin Shen, Mengyang 
+Yu 
+
+### Human Analysis 
 * LCR-Net: Localization-Classification-Regression for Human Pose. Gregory Rogez, Philippe Weinzaepfel, Cordelia Schmid 
 
 * Deep Learning on Lie Groups for Skeleton-Based Action Recognition, Zhiwu Huang, Chengde Wan, Thomas 
@@ -269,6 +306,24 @@ Siddhant Jain, Tae-Kyun Kim
 * Towards Accurate Multi-Person Pose Estimation in the Wild, George Papandreou, Tyler Zhu, Nori Kanazawa, 
 Alexander Toshev, Jonathan Tompson, Chris Bregler, Kevin Murphy
  
+* Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset, João Carreira, **Andrew Zisserman**
+
+* PoseTrack: Joint Multi-Person Pose Estimation and Tracking, Umar Iqbal, Anton Milan, Juergen Gall
+ 
+* Learning From Synthetic Humans, Gül Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael J. 
+Black, Ivan Laptev, Cordelia Schmid 
+
+* Hand Keypoint Detection in Single Images Using Multiview Bootstrapping, Tomas Simon, Hanbyul Joo, Iain 
+Matthews, Yaser Sheikh 
+
+* On Human Motion Prediction Using Recurrent Neural Networks, Julieta Martinez, Michael J. Black, Javier Romero
+
+* Unite the People: Closing the Loop Between 3D and 2D Human Representations, Christoph Lassner, Javier 
+Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler
+
+* Deep Multitask Architecture for Integrated 2D and 3D Human Sensing, Alin-Ionut Popa, Mihai Zanfir, Cristian 
+Sminchisescu  
+
 ### Face Analysis 
 * Learning Residual Images for Face Attribute Manipulation, Wei Shen, Rujie Liu
 
@@ -288,12 +343,24 @@ Weihong Deng, JunPing Du
 
 * DenseReg: Fully Convolutional Dense Shape Regression In-The-Wild, Rıza Alp Güler, George Trigeorgis, Epameinondas Antonakos, Patrick Snape, Stefanos Zafeiriou, Iasonas Kokkinos
  
+* Neural Aggregation Network for Video Face Recognition, Jiaolong Yang, Peiran Ren, Dongqing Zhang, Dong Chen, Fang Wen, Hongdong Li, Gang Hua 
+
 ### Object Tracking
 * Context-Aware Correlation Filter Tracking, Matthias Mueller, Neil Smith, Bernard Ghanem
 
 * Template Matching With Deformable Diversity Similarity, Itamar Talmi, Roey Mechrez, Lihi Zelnik-Mano
 
-### Machine Learning
+* Large Margin Object Tracking With Circulant Feature Maps, Mengmeng Wang, Yong Liu, Zeyi Huang
+ 
+* Attentional Correlation Filter Network for Adaptive Visual Tracking, Jongwon Choi, Hyung Jin Chang, Sangdoo Yun, 
+Tobias Fischer, Yiannis Demiris, Jin Young Choi 
+
+* Discriminative Correlation Filter With Channel and Spatial Reliability, Alan Lukežič, Tomáš Vojíř, Luka Čehovin Zajc, Jiří Matas, Matej Kristan
+ 
+*  End-To-End Representation Learning for Correlation Filter Based Tracking, Jack Valmadre, Luca Bertinetto, 
+João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
+
+### Machine Learning 
 * Learning From Simulated and Unsupervised Images Through Adversarial Training, Ashish Shrivastava, Tomas 
 Pfister, Oncel Tuzel, Joshua Susskind, Wenda Wang, Russell 
 Webb 
@@ -311,6 +378,9 @@ Belongie
 
 * Local Binary Convolutional Neural Networks, Felix Juefei-Xu, Vishnu Naresh Boddeti, Marios Savvides
 
+* All You Need Is Beyond a Good Init: Exploring Better Solution for Training Extremely Deep Convolutional 
+Neural Networks With Orthonormality and Modulation, Di Xie, Jiang Xiong, Shiliang Pu
+ 
 ### Multiple View Geometry
 * A New Rank Constraint on Multi-View Fundamental Matrices, and Its Application to Camera Location 
 Recovery, Soumyadip Sengupta, Tal Amir, Meirav Galun, Tom Goldstein, David W. Jacobs, Amit Singer, Ronen Basri
@@ -329,6 +399,8 @@ Tomas Pajdla
 * An Efficient Algebraic Solution to the Perspective-Three-Point Problem, Tong Ke, Stergios I. Roumeliotis
 
 * The Misty Three Point Algorithm for Relative Pose, Tobias Palmér, Kalle Åström, Jan-Michael Frahm
+
+* **Consensus Maximization** With Linear Matrix Inequality Constraints, Pablo Speciale, Danda Pani Paudel, Martin R. Oswald, Till Kroeger, Luc Van Gool, Marc Pollefeys  
 
 ## Workshops
 
