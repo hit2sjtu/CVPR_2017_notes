@@ -11,7 +11,7 @@ This is my personal notes and **focuses on** several aspects as listed below.
 6. [Object Detection](#objectdetection)
 7. [Transfer Learning & Domain Adaptation](#transferlearning)
 8. [Computational Photography](#cp)
-9. [3D Reconstruction](#3D Reconstruction)
+9. [3D Reconstruction](#3DReconstruction)
 10. [RGBD Sensors / Stereo](#rgbd)
 11. [DL model compression](#DLmodelcompression)
 12. [Sensor Calibration](#calib)
