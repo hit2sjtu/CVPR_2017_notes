@@ -3,19 +3,19 @@
 This is my personal notes and **focuses on** several aspects as listed below.  
 
 ## Table of Contents
-1. [3D vision and Deep Learning](#3D vision and Deep Learning)
-2. [Optical Flow](#Optical Flow)
+1. [3D vision and Deep Learning](#3DvisionandDeepLearning)
+2. [Optical Flow](#OpticalFlow)
 3. [2D/3D feature detection and matching](#Features2d)
 4. [SLAM](#slam)
 5. [6 DOF Object detection & tracking](#r6d)
-6. [Object Detection](#object detection)
-7. [Transfer Learning & Domain Adaptation](#transfer learning)
+6. [Object Detection](#objectdetection)
+7. [Transfer Learning & Domain Adaptation](#transferlearning)
 8. [Computational Photography](#cp)
 9. [3D Reconstruction](#3D Reconstruction)
 10. [RGBD Sensors / Stereo](#rgbd)
-11. [DL model compression](#DL model compression)
+11. [DL model compression](#DLmodelcompression)
 12. [Sensor Calibration](#calib)
-13. [Image Retrieval](#Image Retrieval)
+13. [Image Retrieval](#ImageRetrieval)
 14. [Human Analysis](#human)
 15. [Face Analysis](#face)
 16. [Object Tracking](#track)
@@ -38,7 +38,7 @@ Topics **not included** here but I am also interested with:
 * **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
 
 ## Papers by topics
-### 3D vision and Deep Learning<a name="3D vision and Deep Learning"></a>
+### 3D vision and Deep Learning<a name="3DvisionandDeepLearning"></a>
 * **Convolutional Neural Network Architecture for Geometric Matching**. **INRIA**.
 Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic  
 [Paper](https://arxiv.org/abs/1703.05593)
@@ -63,7 +63,7 @@ Bastian Leibe
 * DSAC - Differentiable RANSAC for Camera Localization, Eric Brachmann, Alexander Krull, Sebastian 
 Nowozin, Jamie Shotton, Frank Michel, Stefan Gumhold, Carsten Rother
 
-### Optical Flow<a name="Optical Flow"></a>
+### Optical Flow<a name="OpticalFlow"></a>
 * FlowNet 2.0: Evolution of Optical Flow Estimation With Deep Networks
 Eddy Ilg, Nikolaus Mayer, Tonmoy Saikia, Margret Keuper, Alexey Dosovitskiy, Thomas Brox [Paper](https://arxiv.org/pdf/1612.01925.pdf) [Code](https://github.com/lmb-freiburg/flownet2)  
 
@@ -137,7 +137,7 @@ Jacob Chan, Jimmy Addison Lee, Qian Kemao
 * Real-Time 3D Model Tracking in Color and Depth on a Single CPU Core, Wadim Kehl, Federico Tombari, Slobodan 
 Ilic, Nassir Navab 
 
-### Object Detection<a name="object detection"></a>
+### Object Detection<a name="objectdetection"></a>
 * LCDet: Low-Complexity Fully-Convolutional Neural Networks for Object Detection in Embedded Systems.  **Qualcomm & UCSD**  
 [Paper](https://arxiv.org/abs/1705.05922)
 
@@ -178,7 +178,7 @@ Van Gool
 * RON: Reverse Connection With Objectness Prior Networks for Object Detection, Tao Kong, Fuchun Sun, 
 Anbang Yao, Huaping Liu, Ming Lu, Yurong Chen 
 
-### Transfer Learning & Domain Adaptation<a name="transfer learning"></a>
+### Transfer Learning & Domain Adaptation<a name="transferlearning"></a>
 * Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning. Weifeng Ge, Yizhou Yu . [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf)
 
 * Fine-Grained Recognition of Thousands of Object Categories With Single-Example Training, Leonid 
@@ -216,7 +216,7 @@ Ogunbona
 
 * Depth From Defocus in the Wild, Huixuan Tang, Scott Cohen, Brian Price, Stephen Schiller, Kiriakos N. Kutulakos 
 
-### 3D Reconstruction<a name="3D Reconstruction"></a>
+### 3D Reconstruction<a name="3DReconstruction"></a>
 * Using Locally Corresponding CAD Models for Dense 3D Reconstructions from a Single Image. Chen Kong, Chen-Hsuan Lin, **Simon Lucey**. Carnegie Mellon University           
 [Paper](ci2cv.net/media/papers/chenkong_cvpr_2017.pdf) [Github](https://github.com/kongchen1992/LDCgraph)
 
@@ -247,7 +247,7 @@ Eisuke Ito, Takayuki Okatani
 
 * Dynamic Time-Of-Flight. Michael Schober, Amit Adam, Omer Yair, Shai Mazor, Sebastian Nowozin
 
-### DL model compression <a name="DL model compression"></a>
+### DL model compression <a name="DLmodelcompression"></a>
 * On Compressing Deep Models by Low Rank and Sparse Decomposition, Xiyu Yu, Tongliang Liu, Xinchao Wang, Dacheng Tao
 
 * A Compact DNN: Approaching GoogLeNet-Level Accuracy of Classification and Domain Adaptation, Chunpeng Wu, Wei Wen, Tariq Afzal, Yongmei Zhang, Yiran Chen, Hai (Helen) Li
@@ -267,7 +267,7 @@ Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhöfer
 *  Radiometric Calibration for Internet Photo Collections, Zhipeng Mo, Boxin Shi, Sai-Kit Yeung, Yasuyuki 
 Matsushita 
 
-### Image Retrieval <a name="Image Retrieval"></a>
+### Image Retrieval <a name="ImageRetrieval"></a>
 * Deep Visual-Semantic Quantization for Efficient Image Retrieval, Yue Cao, Mingsheng Long, Jianmin Wang, 
 Shichen Liu
  
