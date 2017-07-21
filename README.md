@@ -208,6 +208,9 @@ Kim, Yuri Owechko, Stefano Soatto
 * Joint Geometrical and Statistical Alignment for Visual Domain Adaptation, Jing Zhang, Wanqing Li, Philip 
 Ogunbona 
 
+* Deep Hashing Network for Unsupervised Domain Adaptation, Hemanth Venkateswara, Jose Eusebio, Shayok 
+Chakraborty, Sethuraman Panchanathan
+
 ### Computational Photography<a name="cp"></a>
 * A Unified Approach of Multi-scale Deep and Hand-crafted Features for Defocus Estimation. **KAIST & Tecent Youtu**
 [Paper](https://arxiv.org/abs/1704.08992) [website]()
@@ -241,6 +244,9 @@ Yang Yang, Dong Huang
 * Self-Calibration-Based Approach to Critical Motion Sequences of Rolling-Shutter Structure From Motion, 
 Eisuke Ito, Takayuki Okatani 
 
+* KillingFusion: Non-Rigid 3D Reconstruction without Correspondences, Miroslava Slavcheva, 
+Maximilian Baust, Daniel Cremers, Slobodan Ilic
+
 ### RGBD Sensors / Stereo <a name="rgbd"></a>
 * Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
 [Paper](https://arxiv.org/abs/1705.05548)
@@ -260,6 +266,9 @@ Eisuke Ito, Takayuki Okatani
 
 * Network Sketching: Exploiting Binary Structure in Deep CNNs, Yiwen Guo, Anbang Yao, Hao Zhao, Yurong Chen 
   
+* Deep Learning With Low Precision by Half-Wave Gaussian Quantization, Zhaowei Cai, Xiaodong He, Jian 
+Sun, Nuno Vasconcelos 
+
 ### Sensor Calibration <a name="calib"></a>
 *  A Practical Method for Fully **Automatic Intrinsic Camera Calibration** Using Directionally Encoded Light, 
 Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhöfer
@@ -334,6 +343,11 @@ Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler
 * Deep Multitask Architecture for Integrated 2D and 3D Human Sensing, Alin-Ionut Popa, Mihai Zanfir, Cristian 
 Sminchisescu  
 
+* Recurrent 3D Pose Sequence Machines, Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng
+
+* Thin-Slicing Network: A Deep Structured Model for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van 
+Gool, Otmar Hilliges 
+
 ### Face Analysis <a name="face"></a>
 * Learning Residual Images for Face Attribute Manipulation, Wei Shen, Rujie Liu
 
@@ -355,6 +369,20 @@ Weihong Deng, JunPing Du
  
 * Neural Aggregation Network for Video Face Recognition, Jiaolong Yang, Peiran Ren, Dongqing Zhang, Dong Chen, Fang Wen, Hongdong Li, Gang Hua 
 
+* Pose-Aware Person Recognition, Vijay Kumar, Anoop Namboodiri, Manohar Paluri, C. V. Jawahar
+ 
+* Neural Face Editing With Intrinsic Image Disentangling, Zhixin Shu, Ersin Yumer, Sunil Hadap, 
+Kalyan Sunkavalli, Eli Shechtman, Dimitris Samaras
+
+* 3D Face Morphable Models “In-The-Wild”, James Booth, Epameinondas Antonakos, Stylianos Ploumpis, 
+George Trigeorgis, Yannis Panagakis, Stefanos Zafeiriou
+ 
+* Parametric T-Spline Face Morphable Model for Detailed Fitting in Shape Subspace, Weilong Peng, Zhiyong 
+Feng, Chao Xu, Yong Su 
+
+* Learning Detailed Face Reconstruction From a Single Image, Elad Richardson, Matan Sela, Roy Or-El, Ron 
+Kimmel 
+
 ### Object Tracking<a name="track"></a>
 * Context-Aware Correlation Filter Tracking, Matthias Mueller, Neil Smith, Bernard Ghanem
 
@@ -369,6 +397,8 @@ Tobias Fischer, Yiannis Demiris, Jin Young Choi
  
 *  End-To-End Representation Learning for Correlation Filter Based Tracking, Jack Valmadre, Luca Bertinetto, 
 João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
+
+* Robust Visual Tracking Using Oblique Random Forests, Le Zhang, Jagannadan Varadarajan, Ponnuthurai Nagaratnam Suganthan, Narendra Ahuja, Pierre Moulin 
 
 ### Machine Learning <a name="ml"></a>
 * Learning From Simulated and Unsupervised Images Through Adversarial Training, Ashish Shrivastava, Tomas 
@@ -391,6 +421,9 @@ Belongie
 * All You Need Is Beyond a Good Init: Exploring Better Solution for Training Extremely Deep Convolutional 
 Neural Networks With Orthonormality and Modulation, Di Xie, Jiang Xiong, Shiliang Pu
  
+* Newton-Type Methods for Inference in Higher-Order Markov Random Fields, Hariprasad Kannan, Nikos 
+Komodakis, Nikos Paragios 
+
 ### Multiple View Geometry<a name="mvg"></a>
 * A New Rank Constraint on Multi-View Fundamental Matrices, and Its Application to Camera Location 
 Recovery, Soumyadip Sengupta, Tal Amir, Meirav Galun, Tom Goldstein, David W. Jacobs, Amit Singer, Ronen Basri
