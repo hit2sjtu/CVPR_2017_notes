@@ -1,4 +1,4 @@
-# CVPR 2017 notes (on-going)
+# CVPR 2017 notes
 
 This is my personal notes and **focuses on** several aspects as listed below.  
 
