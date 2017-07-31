@@ -63,6 +63,10 @@ Bastian Leibe
 * DSAC - Differentiable RANSAC for Camera Localization, Eric Brachmann, Alexander Krull, Sebastian 
 Nowozin, Jamie Shotton, Frank Michel, Stefan Gumhold, Carsten Rother
 
+* Learning Non-Maximum Suppression, Jan Hosang, Rodrigo Benenson, Bernt Schiele
+
+* Improved Stereo Matching With Constant Highway Networks and Reflective Confidence Learning, Amit Shaked, Lior Wolf
+
 ### Optical Flow<a name="OpticalFlow"></a>
 * FlowNet 2.0: Evolution of Optical Flow Estimation With Deep Networks
 Eddy Ilg, Nikolaus Mayer, Tonmoy Saikia, Margret Keuper, Alexey Dosovitskiy, Thomas Brox [Paper](https://arxiv.org/pdf/1612.01925.pdf) [Code](https://github.com/lmb-freiburg/flownet2)  
@@ -83,14 +87,22 @@ Chang
 * Filter Flow Made Practical: Massively Parallel and Lock-Free, Sathya N. Ravi, Yunyang Xiong, Lopamudra 
 Mukherjee, Vikas Singh 
 
+* Accurate Optical Flow via Direct Cost Volume Processing, Jia Xu, René Ranftl, Vladlen Koltun
+
+* InterpoNet, a Brain Inspired Neural Network for Optical Flow Dense Interpolation, Shay Zweig, Lior WolfI
+
+* Optical Flow in Mostly Rigid Scenes, Jonas Wulff, Laura Sevilla-Lara, Michael J. Black
+
+* Optical Flow Requires Multiple Strategies (but Only One Network), Tal Schuster, Lior Wolf, David Gadot
+
 ### 2D/3D feature detection and matching<a name="Features2d"></a>
 * Comparative Evaluation of Hand-Crafted and Learned Local Features. Johannes L. Schönberger,Hans Hardmeier, Torsten Sattler, **Marc Pollefeys**   
 [Paper](https://cvg.ethz.ch/research/local-feature-evaluation/schoenberger2017comparative.pdf) [Website](https://cvg.ethz.ch/research/local-feature-evaluation/)
 
+* HPatches: A benchmark and evaluation of handcrafted and learned local descriptors, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and **Krystian Mikolajczyk**. [Paper](https://arxiv.org/pdf/1704.05939.pdf) [Github](https://github.com/hpatches/hpatches-benchmark)
+
 * GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence. JiaWang Bian, Daniel Lin, Yasuyuki Matsushita, Sai-Kit Yeung, Tan Dat Nguyen, **Ming-Ming Cheng**
 [Website](http://mmcheng.net/gms/)  [Github](https://github.com/JiawangBian/GMS-Feature-Matcher) [Youtube](https://www.youtube.com/watch?v=tjMpgno6k5A)
-
-* HPatches: A benchmark and evaluation of handcrafted and learned local descriptors, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and **Krystian Mikolajczyk**. [Paper](https://arxiv.org/pdf/1704.05939.pdf) [Github](https://github.com/hpatches/hpatches-benchmark)
 
 * 3DMatch: Learning Local Geometric Descriptors From RGB-D Reconstructions. Andy Zeng, Shuran Song, Matthias Niessner, Matthew Fisher, Jianxiong Xiao, Thomas Funkhouser 
 
@@ -104,9 +116,15 @@ Feng, Jie Zhou
 
 * Alternating Direction Graph Matching, D. Khuê Lê-Huu, Nikos Paragios
 
-* Learning Discriminative and Transformation Covariant Local Feature Detectors, Xu Zhang, Felix X. Yu, Svebor 
-Karaman, Shih-Fu Chang
+* Learning Discriminative and Transformation Covariant Local Feature Detectors, Xu Zhang, Felix X. Yu, Svebor Karaman, Shih-Fu Chang
  
+* Deep Semantic Feature Matching, Nikolai Ufer, Björn Ommer
+
+* L2-Net: Deep Learning of Discriminative Patch Descriptor
+in Euclidean Space, Yurun Tian, Bin Fan, Fuchao Wu
+
+* SGM-Nets: Semi-Global Matching With Neural Networks, Akihito Seki, Marc Pollefeys
+
 ### SLAM<a name="slam"></a>
 * CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
 
@@ -119,8 +137,18 @@ Saurabh Gupta, James Davidson, Sergey Levine, Rahul Sukthankar, Jitendra Malik [
 * Visual-Inertial-Semantic Scene Representation for 3D Object Detection
 Jingming Dong, Xiaohan Fei, **Stefano Soatto**
 
-* On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**
-   Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr 
+* On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**  Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr 
+
+* DeMoN: Depth and Motion Network for Learning Monocular Stereo, Benjamin Ummenhofer, Huizhong Zhou, Jonas Uhrig, Nikolaus Mayer, Eddy Ilg, Alexey
+Dosovitskiy, Thomas Brox
+
+* A Dataset for Benchmarking Image-Based Localization, Xun Sun, Yuanfan Xie, Pei Luo, Liang Wang
+
+* Event-Based Visual Inertial Odometry, Alex Zihao Zhu, Nikolay Atanasov, Kostas Daniilidis
+
+* Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? Torsten Sattler, Akihiko Torii, Josef Sivic, Marc Pollefeys, Hajime Taira, Masatoshi Okutomi, Tomas Pajdla
+
+*  Unsupervised Learning of Depth and Ego-Motion From Video, Tinghui Zhou, Matthew Brown, Noah Snavely, David G. Lowe
 
 ### 6 DOF Object detection & tracking<a name="r6d"></a>
 * PoseAgent: Budget-Constrained 6D Object Pose Estimation via Reinforcement Learning
@@ -136,6 +164,8 @@ Jacob Chan, Jimmy Addison Lee, Qian Kemao
 
 * Real-Time 3D Model Tracking in Color and Depth on a Single CPU Core, Wadim Kehl, Federico Tombari, Slobodan 
 Ilic, Nassir Navab 
+
+* 3D Bounding Box Estimation Using Deep Learning and Geometry, Arsalan Mousavian, Dragomir Anguelov, John Flynn, Jana Košecká
 
 ### Object Detection<a name="objectdetection"></a>
 * LCDet: Low-Complexity Fully-Convolutional Neural Networks for Object Detection in Embedded Systems.  **Qualcomm & UCSD**  
@@ -178,6 +208,15 @@ Van Gool
 * RON: Reverse Connection With Objectness Prior Networks for Object Detection, Tao Kong, Fuchun Sun, 
 Anbang Yao, Huaping Liu, Ming Lu, Yurong Chen 
 
+* YOLO9000: Better, Faster, Stronger, Joseph Redmon, Ali Farhadi
+
+* Multi-View 3D Object Detection Network for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia
+
+* YouTube-BoundingBoxes: A Large High-Precision Human-Annotated Data Set for Object Detection in Video, Esteban Real, Jonathon Shlens, Stefano Mazzocchi,
+Xin Pan, Vincent Vanhoucke  
+
+* Learning Detection With Diverse Proposals, Samaneh Azadi, Jiashi Feng, Trevor Darrell  
+
 ### Transfer Learning & Domain Adaptation<a name="transferlearning"></a>
 * Borrowing Treasures From the Wealthy: Deep Transfer Learning Through Selective Joint Fine-Tuning. Weifeng Ge, Yizhou Yu . [Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ge_Borrowing_Treasures_From_CVPR_2017_paper.pdf)
 
@@ -203,13 +242,19 @@ Gavves, Arnold W.M. Smeulders
 * Correlational Gaussian Processes for Cross-Domain Visual Recognition, Chengjiang Long, Gang Hua 
 
 * Zero Shot Learning via Multi-Scale Manifold Regularization, Shay Deutsch, Soheil Kolouri, Kyungnam 
-Kim, Yuri Owechko, Stefano Soatto
+Kim, Yuri Owechko, Stefano Soatto  
  
-* Joint Geometrical and Statistical Alignment for Visual Domain Adaptation, Jing Zhang, Wanqing Li, Philip 
-Ogunbona 
+* Joint Geometrical and Statistical Alignment for Visual Domain Adaptation, Jing Zhang, Wanqing Li, Philip Ogunbona 
 
-* Deep Hashing Network for Unsupervised Domain Adaptation, Hemanth Venkateswara, Jose Eusebio, Shayok 
-Chakraborty, Sethuraman Panchanathan
+* Deep Hashing Network for Unsupervised Domain Adaptation, Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panchanathan
+
+* Learning Features by Watching Objects Move, Deepak Pathak, Ross Girshick, Piotr Dollár, Trevor Darrell, Bharath Hariharan  
+
+* From Zero-Shot Learning to Conventional Supervised Classification: Unseen Visual Data Synthesis, Yang Long, Li Liu, Ling Shao, Fumin Shen, Guiguang Ding, Jungong Han  
+
+* A Gift From Knowledge Distillation: Fast Optimization, Network Minimization and Transfer Learning, Junho Yim, Donggyu Joo, Jihoon Bae, Junmo Kim  
+
+* Domain Adaptation by Mixture of Alignments of Secondor Higher-Order Scatter Tensors, Piotr Koniusz, Yusuf Tas, Fatih Porikli  
 
 ### Computational Photography<a name="cp"></a>
 * A Unified Approach of Multi-scale Deep and Hand-crafted Features for Defocus Estimation. **KAIST & Tecent Youtu**
@@ -247,6 +292,10 @@ Eisuke Ito, Takayuki Okatani
 * KillingFusion: Non-Rigid 3D Reconstruction without Correspondences, Miroslava Slavcheva, 
 Maximilian Baust, Daniel Cremers, Slobodan Ilic
 
+* ScanNet: Richly-Annotated 3D Reconstructions of Indoor Scenes, Angela Dai, Angel X. Chang, Manolis Savva, Maciej Halber, Thomas Funkhouser, Matthias Nießner
+
+* Unsupervised Monocular Depth Estimation With Left-Right Consistency, Clément Godard, Oisin Mac Aodha, Gabriel J. Brostow
+
 ### RGBD Sensors / Stereo <a name="rgbd"></a>
 * Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
 [Paper](https://arxiv.org/abs/1705.05548)
@@ -266,10 +315,16 @@ Maximilian Baust, Daniel Cremers, Slobodan Ilic
 
 * Network Sketching: Exploiting Binary Structure in Deep CNNs, Yiwen Guo, Anbang Yao, Hao Zhao, Yurong Chen 
   
-* Deep Learning With Low Precision by Half-Wave Gaussian Quantization, Zhaowei Cai, Xiaodong He, Jian 
-Sun, Nuno Vasconcelos 
+* Deep Learning With Low Precision by Half-Wave Gaussian Quantization, Zhaowei Cai, Xiaodong He, Jian Sun, Nuno Vasconcelos 
+
+* Designing Energy-Efficient Convolutional Neural Networks Using Energy-Aware Pruning, Tien-Ju Yang, YuHsin Chen, Vivienne Sze
+
+* Weighted-Entropy-Based Quantization for Deep Neural Networks, Eunhyeok Park, Junwhan Ahn, Sungjoo Yoo  
+
+* Mimicking Very Efficient Network for Object Detection, Quanquan Li, Shengying Jin, Junjie Yan  
 
 ### Sensor Calibration <a name="calib"></a>
+
 *  A Practical Method for Fully **Automatic Intrinsic Camera Calibration** Using Directionally Encoded Light, 
 Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhöfer
 
@@ -298,7 +353,16 @@ Trung T. Pham, Ngai-Man Cheung
 
 * Discretely Coding Semantic Rank Orders for Supervised Image Hashing, Li Liu, Ling Shao, Fumin Shen, Mengyang Yu 
 
+* Asymmetric Feature Maps With Application to Sketch Based Retrieval, Giorgos Tolias, Ondřej Chum
+
+* Fried Binary Embedding for High-Dimensional Visual Features, Weixiang Hong, Junsong Yuan, Sreyasee Das Bhattacharjee
+
+* Learning Multifunctional Binary Codes for Both Category and Attribute Oriented Retrieval Tasks, Haomiao Liu, Ruiping Wang, Shiguang Shan, Xilin Chen
+
+* Kernel Square-Loss Exemplar Machines for Image Retrieval, Rafael S. Rezende, Joaquin Zepeda, Jean Ponce, Francis Bach, Patrick Pérez  
+
 ### Human Analysis <a name="human"></a>
+
 * LCR-Net: Localization-Classification-Regression for Human Pose. Gregory Rogez, Philippe Weinzaepfel, Cordelia Schmid 
 
 * Deep Learning on Lie Groups for Skeleton-Based Action Recognition, Zhiwu Huang, Chengde Wan, Thomas 
@@ -345,8 +409,15 @@ Sminchisescu
 
 * Recurrent 3D Pose Sequence Machines, Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng
 
-* Thin-Slicing Network: A Deep Structured Model for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van 
-Gool, Otmar Hilliges 
+* Thin-Slicing Network: A Deep Structured Model for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van Gool, Otmar Hilliges 
+
+* Lifting From the Deep: Convolutional 3D Pose Estimation From a Single Image, Denis Tome, Chris Russell, Lourdes Agapito
+
+* 3D Human Pose Estimation = 2D Pose Estimation + Matching, Ching-Hang Chen, Deva Ramanan
+
+* Joint Multi-Person Pose Estimation and Semantic Part Segmentation, Fangting Xia, Peng Wang, Xianjie Chen, Alan L. Yuille
+
+* Look Into Person: Self-Supervised Structure-Sensitive Learning and a New Benchmark for Human Parsing, Ke Gong, Xiaodan Liang, Dongyu Zhang, Xiaohui Shen, Liang Lin
 
 ### Face Analysis <a name="face"></a>
 * Learning Residual Images for Face Attribute Manipulation, Wei Shen, Rujie Liu
@@ -399,6 +470,8 @@ Tobias Fischer, Yiannis Demiris, Jin Young Choi
 João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 
 * Robust Visual Tracking Using Oblique Random Forests, Le Zhang, Jagannadan Varadarajan, Ponnuthurai Nagaratnam Suganthan, Narendra Ahuja, Pierre Moulin 
+
+* ECO: Efficient Convolution Operators for Tracking, Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg
 
 ### Machine Learning <a name="ml"></a>
 * Learning From Simulated and Unsupervised Images Through Adversarial Training, Ashish Shrivastava, Tomas 
