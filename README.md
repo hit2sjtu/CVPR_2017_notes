@@ -2,6 +2,10 @@
 
 This is my personal notes and **focuses on** several aspects as listed below.  
 
+**If you want to see all CVPR 2017 papers, please refer to the CVF open access of all CVPR 2017 papers:**   
+* **[Main Conference Papers](http://openaccess.thecvf.com/CVPR2017.py)**  
+* **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
+
 ## Table of Contents
 1. [3D vision and Deep Learning](#3DvisionandDeepLearning)
 2. [Optical Flow](#OpticalFlow)
@@ -32,10 +36,6 @@ Topics **not included** here but I am also interested with:
 6. Denoising/deblurring
 7. Human action analysis
 8. Texture/style network
-
-**If you want to see all CVPR 2017 papers, please refer to the CVF open access of all CVPR 2017 papers:**   
-* **[Main Conference Papers](http://openaccess.thecvf.com/CVPR2017.py)**  
-* **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
 
 ## Papers by topics
 ### 3D vision and Deep Learning<a name="3DvisionandDeepLearning"></a>
