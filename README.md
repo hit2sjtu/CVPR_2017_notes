@@ -133,7 +133,7 @@ in Euclidean Space, Yurun Tian, Bin Fan, Fuchao Wu
 
 ### SLAM<a name="slam"></a>
 	
-####SLAM system
+#### SLAM system
 	* CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
 
 	* NID-SLAM: Robust Monocular SLAM Using Normalised Information Distance.Geoffrey Pascoe, Will Maddern, Michael Tanner, Pedro Piniés, Paul Newman. 
@@ -146,7 +146,7 @@ in Euclidean Space, Yurun Tian, Bin Fan, Fuchao Wu
 
 	*  Unsupervised Learning of Depth and Ego-Motion From Video, Tinghui Zhou, Matthew Brown, Noah Snavely, David G. Lowe
 
-####Image base localization
+#### Image base localization
 	1. A Dataset for Benchmarking Image-Based Localization, Xun Sun, Yuanfan Xie, Pei Luo, Liang Wang  
 
 	2. On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**  Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr  
