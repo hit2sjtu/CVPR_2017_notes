@@ -7,34 +7,40 @@ This is my personal notes and **focuses on** several aspects as listed below.
 * **[Workshop Papers](http://openaccess.thecvf.com/CVPR2017_workshops/menu.py)**  
 
 ## Table of Contents
-1. [3D vision and Deep Learning](#3DvisionandDeepLearning)
+### Low Level vision
+1. [Sensor & Calibration](#calib)
+2. [Multiple View Geometry](#mvg)
+3. [3D Reconstruction](#3DReconstruction)
+4. [3D vision and Deep Learning](#3DvisionandDeepLearning)
+
+### Middle level vision
+1. [Computational Photography](#cp)
 2. [Optical Flow](#OpticalFlow)
 3. [2D/3D feature detection and matching](#Features2d)
 4. [SLAM](#slam)
-5. [6 DOF Object detection & tracking](#r6d)
-6. [Object Detection](#objectdetection)
-7. [Transfer Learning & Domain Adaptation](#transferlearning)
-8. [Computational Photography](#cp)
-9. [3D Reconstruction](#3DReconstruction)
-10. [RGBD Sensors / Stereo](#rgbd)
-11. [DL model compression](#DLmodelcompression)
-12. [Sensor Calibration](#calib)
-13. [Image Retrieval](#ImageRetrieval)
-14. [Human Analysis](#human)
-15. [Face Analysis](#face)
-16. [Object Tracking](#track)
-17. [Machine Learning](#ml)
-18. [Multiple View Geometry](#mvg)
+5. [Image Retrieval](#ImageRetrieval)
+
+### High Level vision
+1. [Human Analysis](#human)
+2. [Face Analysis](#face)
+3. [Object Tracking](#track)
+4. [6 DOF Object detection & tracking](#r6d)
+5. [Object Detection](#objectdetection)
+
+### ML and vision
+1. [Transfer Learning & Domain Adaptation](#transferlearning)
+2. [DL model compression](#DLmodelcompression)
+3. [Machine Learning theory](#ml)
+
 
 Topics **not included** here but I am also interested with:  
   
 1. Image/video Captioning  
-2. Visual Question Answering  
+2. Visual Question Answering (VQA)  
 3. Vision & Sports
 4. Edge detection & semantic segmentation
 5. Video / temporal analysis
 6. Denoising/deblurring
-7. Human action analysis
 8. Texture/style network
 
 ## Papers by topics
@@ -296,9 +302,6 @@ Maximilian Baust, Daniel Cremers, Slobodan Ilic
 
 * Unsupervised Monocular Depth Estimation With Left-Right Consistency, Clément Godard, Oisin Mac Aodha, Gabriel J. Brostow
 
-### RGBD Sensors / Stereo <a name="rgbd"></a>
-* Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
-[Paper](https://arxiv.org/abs/1705.05548)
 
 * Dynamic Time-Of-Flight. Michael Schober, Amit Adam, Omer Yair, Shai Mazor, Sebastian Nowozin
 
@@ -330,6 +333,9 @@ Mahdi Abbaspour Tehrani, Thabo Beeler, Anselm Grundhöfer
 
 *  Radiometric Calibration for Internet Photo Collections, Zhipeng Mo, Boxin Shi, Sai-Kit Yeung, Yasuyuki 
 Matsushita 
+
+* Intel RealSense Stereoscopic Depth Cameras.   **Intel**   
+[Paper](https://arxiv.org/abs/1705.05548)
 
 ### Image Retrieval <a name="ImageRetrieval"></a>
 * Deep Visual-Semantic Quantization for Efficient Image Retrieval, Yue Cao, Mingsheng Long, Jianmin Wang, 
@@ -518,5 +524,4 @@ Tomas Pajdla
 
 * **Consensus Maximization** With Linear Matrix Inequality Constraints, Pablo Speciale, Danda Pani Paudel, Martin R. Oswald, Till Kroeger, Luc Van Gool, Marc Pollefeys  
 
-## Workshops
 
