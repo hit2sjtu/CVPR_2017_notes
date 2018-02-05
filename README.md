@@ -132,29 +132,29 @@ in Euclidean Space, Yurun Tian, Bin Fan, Fuchao Wu
 * SGM-Nets: Semi-Global Matching With Neural Networks, Akihito Seki, Marc Pollefeys
 
 ### SLAM<a name="slam"></a>
-* CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
+	
+####SLAM system
+	* CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction [Paper](https://arxiv.org/pdf/1704.03489.pdf)
 
-* NID-SLAM: Robust Monocular SLAM Using Normalised Information Distance.
-Geoffrey Pascoe, Will Maddern, Michael Tanner, Pedro Piniés, Paul Newman. [Paper](www.robots.ox.ac.uk/~mobile/Papers/2017CVPR_pascoe.pdf)
+	* NID-SLAM: Robust Monocular SLAM Using Normalised Information Distance.Geoffrey Pascoe, Will Maddern, Michael Tanner, Pedro Piniés, Paul Newman. 
 
-* Cognitive Mapping and Planning for Visual Navigation. 
-Saurabh Gupta, James Davidson, Sergey Levine, Rahul Sukthankar, Jitendra Malik [Paper](https://arxiv.org/abs/1702.03920) [Project](https://sites.google.com/view/cognitive-mapping-and-planning/) [Code](https://github.com/tensorflow/models/tree/master/cognitive_mapping_and_planning)
+	* Cognitive Mapping and Planning for Visual Navigation. Saurabh Gupta, James Davidson, Sergey Levine, Rahul Sukthankar, Jitendra Malik 
 
-* Visual-Inertial-Semantic Scene Representation for 3D Object Detection
-Jingming Dong, Xiaohan Fei, **Stefano Soatto**
+	* Visual-Inertial-Semantic Scene Representation for 3D Object Detection. Jingming Dong, Xiaohan Fei, **Stefano Soatto**
 
-* On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**  Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr 
+	* DeMoN: Depth and Motion Network for Learning Monocular Stereo, Benjamin Ummenhofer, Huizhong Zhou, Jonas Uhrig, Nikolaus Mayer, Eddy Ilg, Alexey Dosovitskiy, Thomas Brox
 
-* DeMoN: Depth and Motion Network for Learning Monocular Stereo, Benjamin Ummenhofer, Huizhong Zhou, Jonas Uhrig, Nikolaus Mayer, Eddy Ilg, Alexey
-Dosovitskiy, Thomas Brox
+	*  Unsupervised Learning of Depth and Ego-Motion From Video, Tinghui Zhou, Matthew Brown, Noah Snavely, David G. Lowe
 
-* A Dataset for Benchmarking Image-Based Localization, Xun Sun, Yuanfan Xie, Pei Luo, Liang Wang
+####Image base localization  
+	1. A Dataset for Benchmarking Image-Based Localization, Xun Sun, Yuanfan Xie, Pei Luo, Liang Wang  
 
-* Event-Based Visual Inertial Odometry, Alex Zihao Zhu, Nikolay Atanasov, Kostas Daniilidis
+	2. On-The-Fly Adaptation of Regression Forests for **Online Camera Relocalisation**  Tommaso Cavallari, Stuart Golodetz, Nicholas A. Lord, Julien Valentin, Luigi Di Stefano, Philip H. S. Torr  
 
-* Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? Torsten Sattler, Akihiko Torii, Josef Sivic, Marc Pollefeys, Hajime Taira, Masatoshi Okutomi, Tomas Pajdla
+	3. Are Large-Scale 3D Models Really Necessary for Accurate Visual Localization? **Torsten Sattler**, Akihiko Torii, Josef Sivic, Marc Pollefeys, Hajime Taira, Masatoshi Okutomi, Tomas Pajdla
 
-*  Unsupervised Learning of Depth and Ego-Motion From Video, Tinghui Zhou, Matthew Brown, Noah Snavely, David G. Lowe
+#### Event Camera
+	* Event-Based Visual Inertial Odometry, Alex Zihao Zhu, Nikolay Atanasov, Kostas Daniilidis
 
 ### 6 DOF Object detection & tracking<a name="r6d"></a>
 * PoseAgent: Budget-Constrained 6D Object Pose Estimation via Reinforcement Learning
