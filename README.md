@@ -1,6 +1,6 @@
 # CVPR 2017 notes
 
-This is my personal notes and **focuses on** several aspects as listed below.  
+his is my personal notes and **focuses on** several aspects as listed below.  
 
 **If you want to see all CVPR 2017 papers, please refer to the CVF open access of all CVPR 2017 papers:**   
 * **[Main Conference Papers](http://openaccess.thecvf.com/CVPR2017.py)**  
@@ -261,14 +261,14 @@ Yaser Sheikh
 * **Joint** Multi-Person Pose Estimation and **Semantic Part Segmentation**, Fangting Xia, Peng Wang, Xianjie Chen, Alan L. Yuille  
 
 #### Human in video
-* Thin-Slicing Network: A Deep** Structured Model** for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van Gool, Otmar Hilliges 
+* Thin-Slicing Network: A Deep **Structured Model** for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van Gool, Otmar Hilliges 
 
 * PoseTrack: Joint **Multi-Person Pose Estimation and Tracking**, Umar Iqbal, Anton Milan, Juergen Gall  
 
 * ArtTrack: Articulated **Multi-Person Tracking** in the Wild, Eldar Insafutdinov, Mykhaylo Andriluka, Leonid 
 Pishchulin, Siyu Tang, Evgeny Levinkov, Bjoern Andres, Bernt Schiele 
 
-* On Human** Motion Prediction** Using **Recurrent Neural Networks**, Julieta Martinez, Michael J. Black, Javier Romero  
+* On Human **Motion Prediction** Using **Recurrent Neural Networks**, Julieta Martinez, Michael J. Black, Javier Romero  
 
 #### 3D pose
 * Unite the People: Closing the Loop **Between 3D and 2D Human Representations**, Christoph Lassner, Javier 
@@ -277,7 +277,7 @@ Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler
 * Deep **Multitask Architecture** for Integrated 2D and 3D Human Sensing, Alin-Ionut Popa, Mihai Zanfir, Cristian 
 Sminchisescu  
 
-* Recurrent** 3D Pose Sequence Machines**, Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng
+* Recurrent **3D Pose Sequence Machines**, Mude Lin, Liang Lin, Xiaodan Liang, Keze Wang, Hui Cheng
 
 * 3D Human Pose Estimation **=** 2D Pose Estimation + Matching, Ching-Hang Chen, Deva Ramanan  
 
@@ -308,7 +308,7 @@ Siddhant Jain, Tae-Kyun Kim
 
 * Quo Vadis, **Action Recognition**? A New Model and the Kinetics Dataset, João Carreira, **Andrew Zisserman**
 
-* Look Into Person: Self-Supervised Structure-Sensitive Learning and a** New Benchmark** for Human Parsing, Ke Gong, Xiaodan Liang, Dongyu Zhang, Xiaohui Shen, **Liang Lin**
+* Look Into Person: Self-Supervised Structure-Sensitive Learning and a **New Benchmark** for Human Parsing, Ke Gong, Xiaodan Liang, Dongyu Zhang, Xiaohui Shen, **Liang Lin**
 
 ## Face Analysis <a name="face"></a>
 #### Face Recognition
@@ -350,9 +350,9 @@ Weihong Deng, JunPing Du
 #### Correlation Filter
 * Context-Aware **Correlation Filter** Tracking, Matthias Mueller, Neil Smith, Bernard Ghanem
 
-* Discriminative ** Correlation Filter** With Channel and Spatial Reliability, Alan Lukežič, Tomáš Vojíř, Luka Čehovin Zajc, Jiří Matas, Matej Kristan
+* Discriminative **Correlation Filter** With Channel and Spatial Reliability, Alan Lukežič, Tomáš Vojíř, Luka Čehovin Zajc, Jiří Matas, Matej Kristan
  
-*  End-To-End Representation Learning for ** Correlation Filter**  Based Tracking, Jack Valmadre, Luca Bertinetto, 
+*  End-To-End Representation Learning for **Correlation Filter**  Based Tracking, Jack Valmadre, Luca Bertinetto, 
 João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 
 * **Attentional Correlation Filter** Network for Adaptive Visual Tracking, Jongwon Choi, Hyung Jin Chang, Sangdoo Yun, Tobias Fischer, Yiannis Demiris, Jin Young Choi 
@@ -363,7 +363,7 @@ João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 
 * **Large Margin Object Tracking** With Circulant Feature Maps, Mengmeng Wang, Yong Liu, Zeyi Huang
 
-* Robust Visual Tracking Using** Oblique Random Forests **, Le Zhang, Jagannadan Varadarajan, Ponnuthurai Nagaratnam Suganthan, Narendra Ahuja, Pierre Moulin 
+* Robust Visual Tracking Using **Oblique Random Forests**, Le Zhang, Jagannadan Varadarajan, Ponnuthurai Nagaratnam Suganthan, Narendra Ahuja, Pierre Moulin 
 
 * ECO: Efficient **Convolution Operators** for Tracking, Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg
 
@@ -424,7 +424,7 @@ Longin Jan Latecki
 
 * **Multi-View 3D Object Detection Network** for Autonomous Driving, Xiaozhi Chen, Huimin Ma, Ji Wan, Bo Li, Tian Xia  
 
-* Straight to Shapes: Real-Time** Detection of Encoded Shapes**, Saumya Jetley, Michael Sapienza, Stuart Golodetz, Philip H. S. Torr 
+* Straight to Shapes: Real-Time **Detection of Encoded Shapes**, Saumya Jetley, Michael Sapienza, Stuart Golodetz, Philip H. S. Torr 
 
 ## Transfer Learning & Domain Adaptation<a name="transferlearning"></a>
 #### Zero-shot learning
