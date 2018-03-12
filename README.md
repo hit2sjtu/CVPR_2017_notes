@@ -1,6 +1,6 @@
 # CVPR 2017 notes
 
-his is my personal notes and **focuses on** several aspects as listed below.  
+This is my personal notes and **focuses on** several aspects as listed below.  
 
 **If you want to see all CVPR 2017 papers, please refer to the CVF open access of all CVPR 2017 papers:**   
 * **[Main Conference Papers](http://openaccess.thecvf.com/CVPR2017.py)**  
@@ -31,7 +31,6 @@ his is my personal notes and **focuses on** several aspects as listed below.
 1. [Transfer Learning & Domain Adaptation](#transferlearning)
 2. [DL model compression](#DLmodelcompression)
 3. [Machine Learning theory](#ml)
-
 
 Topics **not included** here but I am also interested with:  
   
@@ -248,7 +247,6 @@ Jonathan Brandt, Feng Liu
 * **Kernel Square-Loss Exemplar Machines** for Image Retrieval, Rafael S. Rezende, Joaquin Zepeda, Jean Ponce, Francis Bach, Patrick Pérez  
 ## Human Analysis <a name="human"></a>
 
-#### Human Pose Estimation
 #### Bottom-up
 * Realtime Multi-Person 2D Pose Estimation Using **Part Affinity Fields**, Zhe Cao, Tomas Simon, Shih-En Wei, 
 Yaser Sheikh 
