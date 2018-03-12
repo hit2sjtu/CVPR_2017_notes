@@ -110,7 +110,7 @@ Bastian Leibe
 * KillingFusion: **Non-Rigid 3D Reconstruction** without Correspondences, Miroslava Slavcheva, 
 Maximilian Baust, Daniel Cremers, Slobodan Ilic
 
-## 3D vision and Deep Learning<a name="3DvisionandDeepLearning"></a>
+## 3D Vision and Deep Learning<a name="3DvisionandDeepLearning"></a>
 * Convolutional Neural Network Architecture for **Geometric Matching**. INRIA. Ignacio Rocco, Relja ArandjeloviÄ‡, Josef Sivic  
 
 * FCSS: Fully Convolutional Self-Similarity for **Dense Semantic Correspondence**, Seungryong Kim, Dongbo Min, 
@@ -164,9 +164,9 @@ Mukherjee, Vikas Singh
 
 * Optical Flow Requires **Multiple Strategies (but Only One Network)**, Tal Schuster, Lior Wolf, David Gadot
 
-## 2D/3D feature detection and matching<a name="Features2d"></a>
+## 2D/3D Feature Detection and Matching<a name="Features2d"></a>
 
-#### Feature detection  
+#### Feature Detection  
  * Learning Discriminative and Transformation Covariant Local **Feature Detectors**, Xu Zhang, Felix X. Yu, Svebor Karaman, Shih-Fu Chang  
  
  * Quad-Networks: Unsupervised Learning to Rank for **Interest Point Detection**, Nikolay Savinov, Akihito Seki, Lubor Ladicky, Torsten Sattler, Marc Pollefeys  
@@ -184,7 +184,7 @@ Mukherjee, Vikas Singh
 
 * SGM-Nets: **Semi-Global Matching** With Neural Networks, Akihito Seki, Marc Pollefey
 
-#### Semantic matching
+#### Semantic Matching
 * AnchorNet: A Weakly Supervised Network to Learn **Geometry-Sensitive Features** for Semantic Matching, David Novotny, Diane Larlus, Andrea Vedaldi 
 	
 * Deep **Semantic Feature Matching**, Nikolai Ufer, Björn Ommer 
@@ -195,7 +195,7 @@ Mukherjee, Vikas Singh
 * HPatches: A **benchmark and evaluation** of handcrafted and learned local descriptors, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and **Krystian Mikolajczyk**.
 ## SLAM<a name="slam"></a>
 	
-#### SLAM system
+#### SLAM System
 * **CNN-SLAM**: Real-time dense monocular SLAM with learned depth prediction. 
 
 * **NID-SLAM**: Robust Monocular SLAM Using Normalised Information Distance.Geoffrey Pascoe, Will Maddern, Michael Tanner, Pedro Piniés, Paul Newman. 
@@ -260,7 +260,7 @@ Yaser Sheikh
 
 * **Joint** Multi-Person Pose Estimation and **Semantic Part Segmentation**, Fangting Xia, Peng Wang, Xianjie Chen, Alan L. Yuille  
 
-#### Human in video
+#### Human in Video
 * Thin-Slicing Network: A Deep **Structured Model** for Pose Estimation in Videos, Jie Song, Limin Wang, Luc Van Gool, Otmar Hilliges 
 
 * PoseTrack: Joint **Multi-Person Pose Estimation and Tracking**, Umar Iqbal, Anton Milan, Juergen Gall  
@@ -270,7 +270,7 @@ Pishchulin, Siyu Tang, Evgeny Levinkov, Bjoern Andres, Bernt Schiele
 
 * On Human **Motion Prediction** Using **Recurrent Neural Networks**, Julieta Martinez, Michael J. Black, Javier Romero  
 
-#### 3D pose
+#### 3D Pose
 * Unite the People: Closing the Loop **Between 3D and 2D Human Representations**, Christoph Lassner, Javier 
 Romero, Martin Kiefel, Federica Bogo, Michael J. Black, Peter V. Gehler
 
@@ -302,7 +302,7 @@ Kuehne, Juergen Gall
 * **Hand Keypoint Detection** in Single Images Using Multiview Bootstrapping, Tomas Simon, Hanbyul Joo, Iain 
 Matthews, Yaser Sheikh 
 
-#### Dataset and benchmark
+#### Dataset & Benchmark
 * **BigHand2.2M** Benchmark: Hand Pose Dataset and State of the Art Analysis, Shanxin Yuan, Qi Ye, Björn Stenger, 
 Siddhant Jain, Tae-Kyun Kim 
 
@@ -340,7 +340,7 @@ Feng, Chao Xu, Yong Su
 
 * Learning Detailed **Face Reconstruction** From a Single Image, Elad Richardson, Matan Sela, Roy Or-El, Ron 
 Kimmel 
-#### Other face-related
+#### Other Face-related
 * Reliable Crowdsourcing and Deep Locality-Preserving Learning for **Expression Recognition** in the Wild, Shan Li, 
 Weihong Deng, JunPing Du 
 
@@ -367,7 +367,7 @@ João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 
 * ECO: Efficient **Convolution Operators** for Tracking, Martin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg
 
-## 6 DOF Object detection & tracking<a name="r6d"></a>
+## 6 DOF Object Detection & Tracking<a name="r6d"></a>
 #### Detection
 * **PoseAgent**: Budget-Constrained 6D Object Pose Estimation via Reinforcement Learning. Alexander Krull, Eric Brachmann, Sebastian Nowozin, Frank 
 
@@ -381,7 +381,7 @@ João Henriques, Andrea Vedaldi, **Philip H. S. Torr**
 *  Real-Time **3D Model Tracking** in Color and Depth on a Single CPU Core. Wadim Kehl, Federico Tombari, Slobodan Ilic, Nassir Navab
 
 ## Object Detection<a name="objectdetection"></a>
-#### Single stage Systems
+#### Single-stage Systems
 * **YOLO9000**: Better, Faster, Stronger, Joseph Redmon, Ali Farhadi
 
 * Accurate Single Stage Detector Using **Recurrent Rolling Convolution**. SenseTime. Jimmy Ren, Xiaohao Chen, Jianbo Liu, Wenxiu Sun, Jiahao Pang, Qiong Yan, Yu-Wing Tai, Li Xu   
@@ -427,7 +427,7 @@ Longin Jan Latecki
 * Straight to Shapes: Real-Time **Detection of Encoded Shapes**, Saumya Jetley, Michael Sapienza, Stuart Golodetz, Philip H. S. Torr 
 
 ## Transfer Learning & Domain Adaptation<a name="transferlearning"></a>
-#### Zero-shot learning
+#### Zero-shot Learning
 * Fine-Grained Recognition of Thousands of Object Categories With **Single-Example Training**, Leonid Karlinsky, Joseph Shtok, Yochay Tzur, Asaf Tzadok 
 
 *  Matrix Tri-Factorization With Manifold Regularizations for **Zero-Shot Learning**, Xing Xu, Fumin Shen, Yang Yang, Dongxiang Zhang, Heng Tao Shen, Jingkuan Song
@@ -464,7 +464,7 @@ Kim, Yuri Owechko, Stefano Soatto
 
 * Domain Adaptation by **Mixture of Alignments** of Secondor Higher-Order Scatter Tensors, Piotr Koniusz, Yusuf Tas, Fatih Porikli  
 
-## DL model compression <a name="DLmodelcompression"></a>
+## DL Model Compression <a name="DLmodelcompression"></a>
 #### Quantization
 * Network Sketching: Exploiting **Binary Structure** in Deep CNNs, Yiwen Guo, Anbang Yao, Hao Zhao, Yurong Chen 
   
@@ -476,7 +476,7 @@ Kim, Yuri Owechko, Stefano Soatto
 #### Pruning  
 * Designing Energy-Efficient Convolutional Neural Networks Using **Energy-Aware Pruning**, Tien-Ju Yang, YuHsin Chen, Vivienne Sze  
 
-#### Low-rank approximation
+#### Low-rank Approximation
 * On Compressing Deep Models by **Low Rank and Sparse Decomposition**, Xiyu Yu, Tongliang Liu, Xinchao Wang, Dacheng Tao
    
 * LCNN: **Lookup-Based** Convolutional Neural Network, Hessam Bagherinezhad, Mohammad Rastegari, Ali Farhad  
